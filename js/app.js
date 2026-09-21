@@ -8,6 +8,7 @@ const startBtn = document.getElementById("startBtn");
 const replayBtn = document.getElementById("replayBtn");
 const nameOutput = document.getElementById("nameOutput");
 const messageOutput = document.getElementById("messageOutput");
+const backgroundMusic = document.getElementById("backgroundMusic");
 
 nameOutput.textContent = CONFIG.nombre;
 messageOutput.textContent = CONFIG.mensaje;
@@ -335,6 +336,12 @@ function animate(timestamp) {
 }
 
 function startExperience() {
+  backgroundMusic.currentTime = 0;
+backgroundMusic.volume = 0.45;
+
+backgroundMusic.play().catch((error) => {
+    console.log("No se pudo reproducir la música:", error);
+});
   if (animationFrame) cancelAnimationFrame(animationFrame);
 
   intro.classList.remove("active");
