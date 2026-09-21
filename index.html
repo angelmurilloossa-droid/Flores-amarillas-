@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Un detalle para ti ✨</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main id="app">
+    <canvas id="spaceCanvas" aria-hidden="true"></canvas>
+
+    <section id="intro" class="screen active">
+      <div class="intro-content">
+        <p class="eyebrow">UNA PEQUEÑA SORPRESA</p>
+        <h1>Hay algo que quiero mostrarte...</h1>
+        <p class="intro-text">Mira las estrellas.</p>
+        <button id="startBtn" class="main-button" type="button">Descúbrelo ✨</button>
+      </div>
+    </section>
+
+    <section id="reveal" class="screen">
+      <div class="message">
+        <p class="small-message">PARA</p>
+        <h2 id="nameOutput">Yasidel</h2>
+        <p id="messageOutput">Porque hay personas que hacen que todo se vea un poquito más bonito.</p>
+        <button id="replayBtn" class="secondary-button" type="button">Volver a mirar ✨</button>
+      </div>
+    </section>
+
+    <div id="loading" class="status" aria-live="polite"></div>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
