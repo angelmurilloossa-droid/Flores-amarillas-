@@ -6,7 +6,7 @@
 */
 
 const CONFIG = {
-  nombre: "YAS MI CHICA CONSENTIDA",
+  nombre: "YAS aqui estan",
 
   mensaje:
     "Porque hay personas que hacen que todo se vea un poquito más bonito.",
