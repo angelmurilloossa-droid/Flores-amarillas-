@@ -6,14 +6,14 @@
 */
 
 const CONFIG = {
-  nombre: "YAS aqui estan",
+  nombre: "YASIDEL",
 
   mensaje:
     "Porque hay personas que hacen que todo se vea un poquito más bonito.",
 
-  cantidadEstrellas: 1800,
+  cantidadEstrellas: 180000,
 
-  cantidadFlores: 15,
+  cantidadFlores: 10,
 
   // Duración aproximada de la formación del ramo.
   duracionFormacion: 6500
