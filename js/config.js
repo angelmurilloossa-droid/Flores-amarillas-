@@ -6,7 +6,7 @@
 */
 
 const CONFIG = {
-  nombre: "YASIDEL",
+  nombre: "ANA MARIA",
 
   mensaje:
     "Porque hay personas que hacen que todo se vea un poquito más bonito.",
